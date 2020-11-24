@@ -173,3 +173,18 @@ input {
 .clearing {
   background-color: #fff1e6;
 }
+
+@media (max-width: 1086px) {
+  #calculator {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  #calc-field h1 {
+    font-size: 3rem;
+  }
+
+  #calc-field p {
+    font-size: 1rem;
+  }
+}
