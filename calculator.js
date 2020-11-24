@@ -55,7 +55,7 @@ let inputArray = [];
 
 numberArray.forEach((num) => {
   num.addEventListener("click", () => {
-    if (displayInput.offsetWidth >= 320) {
+    if (displayInput.offsetWidth >= 420) {
       alert("You reached the maximum of numbers that can be entered");
       return;
     }
@@ -133,7 +133,7 @@ equalSign.addEventListener("click", () => {
 
   calculationText.innerText = `${firstInput} ${currOperation} ${secondInput}`;
   displayInput.innerText = result;
-  if (displayInput.offsetWidth >= 320) {
+  if (displayInput.offsetWidth >= 420) {
     displayInput.style.fontSize = "1.5rem";
   } else if (displayInput.offsetWidth >= 600) {
     alert(

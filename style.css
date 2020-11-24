@@ -82,8 +82,8 @@ table {
 }
 
 #calculator {
-  width: 30rem;
-  height: 30rem;
+  width: 40rem;
+  height: 40rem;
   border: #264653 solid 0.7rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -106,14 +106,14 @@ table {
 }
 
 #calc-field h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bolder;
   margin-right: 0.2rem;
 }
 
 #calc-field p {
-  font-size: 0.8rem;
-  margin: 0rem 1.5rem 5rem 0rem;
+  font-size: 2rem;
+  margin: 0rem 1.5rem 7rem 0rem;
   position: absolute;
 }
 
@@ -121,12 +121,14 @@ button {
   height: 100%;
   width: 100%;
   border: none;
+  font-size: 2.5rem;
 }
 
 input {
   width: 100%;
   height: 100%;
   border: none;
+  font-size: 2.5rem;
 }
 
 #inputfield {
@@ -174,17 +176,17 @@ input {
   background-color: #fff1e6;
 }
 
-@media (min-height: 1086px) {
+@media screen and (min-width: 1860px) {
   #calculator {
-    width: 35rem;
-    height: 35rem;
+    width: 50rem;
+    height: 50rem;
   }
 
   #calc-field h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   #calc-field p {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
