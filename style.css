@@ -71,18 +71,20 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: 50% no-repeat url(images/pexels-cottonbro-5184947.jpg);
 }
 
 #header {
   position: fixed;
   height: 3rem;
   top: 0;
+  font-size: 4rem;
 }
 
 #calculator {
   width: 30rem;
   height: 30rem;
-  border: black solid 2px;
+  border: #264653 solid 0.7rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -96,7 +98,7 @@ table {
 
 #calc-field {
   grid-area: calculation;
-  background-color: aqua;
+  background-color: #e9c46a;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -106,22 +108,25 @@ table {
 #calc-field h1 {
   font-size: 2.5rem;
   font-weight: bolder;
+  margin-right: 0.2rem;
 }
 
 #calc-field p {
   font-size: 0.8rem;
-  margin-bottom: 5rem;
+  margin: 0rem 1.5rem 5rem 0rem;
   position: absolute;
 }
 
 button {
   height: 100%;
   width: 100%;
+  border: none;
 }
 
 input {
   width: 100%;
   height: 100%;
+  border: none;
 }
 
 #inputfield {
@@ -139,20 +144,32 @@ input {
 }
 .numbers-field {
   grid-area: numbers-field;
-  background-color: blueviolet;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
+.number {
+  background-color: #2a9d8f;
+}
 
 .operator-field {
   grid-area: operator-field;
-  background-color: coral;
   display: flex;
   flex-direction: column;
 }
 
+.operator {
+  background-color: #e76f51;
+}
+
 #equal-field {
   grid-area: equal;
-  background-color: darkblue;
+}
+
+.equal {
+  background-color: #f4a261;
+}
+
+.clearing {
+  background-color: #fff1e6;
 }
