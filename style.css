@@ -174,7 +174,7 @@ input {
   background-color: #fff1e6;
 }
 
-@media (max-width: 1086px) {
+@media (min-height: 1086px) {
   #calculator {
     width: 35rem;
     height: 35rem;
